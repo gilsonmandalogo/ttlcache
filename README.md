@@ -20,6 +20,9 @@
 go get github.com/jellydator/ttlcache/v3
 ```
 
+The module requires the Go version stated in `go.mod`; run `go test ./...`
+from the repository root to check a local change.
+
 ## Usage
 All cache operations are provided by the `Cache` type, which represents
 a single in-memory data store. To create a new instance of it, the
